@@ -1,16 +1,215 @@
-## Hi there 👋
 
-<!--
-**V9M9/V9M9** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вениамин Ахмадеев</title>
+    <style>
+        
+        body {
+            font-family: 'Helvetica', sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            color: black;
+            margin-left: 22px;
+            margin-right: 22px;
+            margin-top: 22px;
+            margin-bottom: 22px;
+        }
 
-Here are some ideas to get you started:
+        .flex{
+          display: flex;
+          align-items:center;
+          justify-content: center;
+        }
+        
+        .center{
+          background-color:white;
+          width:555px;
+        }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        .centered_text {
+            text-align: center;
+        } 
+
+        .article-text {
+            max-width: 800px; /
+            margin: left; 
+            color: black;
+            font-size: 16px;
+        }
+
+        .normal-shadow {
+            background-size: cover;
+            background-position: 0% 100%;
+            border-radius: 40px;
+            height: 320px;
+            width: 320px;
+            box-shadow: 2px 5px 20px 1px #121601ad;
+        }
+
+        h1 {
+            font-weight: lighter;
+            font-size: 22px;
+            color: grey;
+            margin: 0; 
+        }
+
+        h4 {
+            font-size: 16px;
+            margin: 0; 
+        }
+
+        p {
+            margin: 0;
+        } 
+        
+        tiny {
+            font-family: Georgia, Tinos, serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 13px;
+            text-align: right;
+            color: grey;
+            float:right;
+        }
+
+        tiny_centered {
+            font-family: Georgia, Tinos, serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 13px;
+            text-align: right;
+            color: grey;
+            float:center;
+        }
+
+        ul {
+            list-style-type: '- ';
+            margin: 0
+        }
+
+        a {
+            color: royalblue;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 12px;
+            box-shadow: 2px 5px 20px 1px #121601ad;
+            -webkit-box-shadow: 2px 5px 20px 1px #121601ad;
+            -moz-box-shadow: 2px 5px 20px 1px #121601ad;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+
+<!-- CONTENT -->
+
+
+<body>
+    <div class="flex">
+    <div class="center" >
+    <div class="article-text">
+    
+
+    <tiny>
+        Москва, Россия
+        <br>+7 995 099 11 92
+        <br><a href="mailto:gbqx22@gmail.com">gbqx22@gmail.com</a>
+        <br><a href="https://www.linkedin.com/in/gleb-belov-568616259/">LinkedIn</a>
+    </tiny>
+    
+    <p>
+    <b>Глеб Белов</b>
+    <br><br>
+    BI лид с 4+ годами опыта. 
+    <br>
+    Строю топ-лайн отчетность, управляю BI платформой и зарываюсь в данных
+    
+    <br><br>
+        
+    <b>Портфолио</b> -> <a href="/portfolio">Примеры моих дашбордов</a>
+        
+    <br><br>
+
+    <h4>Опыт</h4>
+        <a href="https://sberbank.com/about/awards"><b>СберБанк</b></a> <tiny>Nov 2023 - Present</tiny>
+        <ul>
+            <li>Разработал топ-лайн дашборды для HR</li>
+            <li>Запустил BI-комьюнити</li>
+        </ul><br>
+
+        <a href="https://uzum.com"><b>Uzum</b></a> <tiny>Apr 2023 - Nov 2023</tiny>
+        BI engineer
+        <ul>
+            <li>Разработал Self-service инструмент для пользователей</li>
+            <li>Развиваю культуру Data-driven будучи амбассадором Superset BI в компании</li>
+            <li>Совершенствование BI платформы</li>
+        </ul><br>
+        
+        <a href="https://yandex.com/company/general_info/yandex_today/"><b>Яндекс</b></a> BI analyst<tiny>Aug 2021 - Apr 2023</tiny>
+        <ul>
+            <li>Принял участие в переезде с Tableau на Datalens</li>
+            <li>Разработал сервис оповещений с 500+ DAU по нескольким подразделениям Яндекса: Маркет/Еда/Лавка</li>
+            <li>Автоматизировал систему сертификации дашбордов для завершения SOX-аудита</li>
+        </ul><br>
+
+        <a href="https://tsum.com"><b>ЦУМ</b></a> BI developer<tiny>Apr 2021 - Aug 2021</tiny>
+        <ul>
+            <li>Внедрил Power BI в отчетность финансов</li>
+            <li>Разрабатывал дашборды и P&L отчеты: от ETL до руководства по визуальному стилю</li>
+        </ul><br>
+
+        <a href="https://huawei.com"><b>Huawei</b></a> Data Specialist <tiny>Feb 2020 - Apr 2021</tiny>
+        <ul>
+            <li>Сократил более чем 200 часов рутинной работы в отделе логистики за счет автоматизации RPA</li>
+            <li>Перевел 15+ ключевых отчетов из Excel в PowerBI</li>
+        </ul>
+
+        <br>
+
+        <h4>Собственный проект</h4>
+        <a href="https://t.me/randomoro_bot">Randomoro</a> - телеграм-бот, который отправляет случайное видео с Ютуба. Сделан в 2017 году и обновлен в 2022 году. Python + Aiogram + Google API + бессерверные веб-хуки
+        <br><br>
+
+        <h4>Навыки</h4>
+        <b>Data:</b> Python, ETL, Airflow, Git, SQL, Jupyter, Power Query, Excel
+        <br>
+        <b>BI:</b> Apache Superset, Tableau, Power BI, Datalens
+        <br>
+        <b>Databases:</b> Clickhouse, Vertica, Greenplum, Hadoop, BigQuery, etc.
+        <br>
+        <b>Soft:</b> Agile, communication, documentation, fluent english
+        <br><br>
+
+        <h4>Образование</h4>
+        Государственный Университет Управления
+        <br>
+        Прикладная информатика, 2018-2020<br><br>
+
+        <h4>Хобби</h4>
+        Паломничество на китай-городе, велик, выращивание микрозелени 🌱
+    </p>
+    </div>
+
+    <br>
+    <a href="https://yogleb.github.io">English version</a>
+
+    <tiny>обновлено: Апрель, 2024</tiny>
+    <br>
+    <br>
+    <center>
+    <img src="src/m.jpeg" alt="a picture of me" onerror="this.src='https://github.com/yogleb/yogleb.github.io/blob/main/src/m.jpeg?raw=true';" width="22%"></center>
+    </div>
+</div>
+</body>
+</html>
