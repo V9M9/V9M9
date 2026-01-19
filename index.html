@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вениамин Ахмадеев</title>
+    <style>
+        
+        body {
+            font-family: 'Helvetica', sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            color: black;
+            margin-left: 22px;
+            margin-right: 22px;
+            margin-top: 22px;
+            margin-bottom: 22px;
+        }
+
+        .flex{
+          display: flex;
+          align-items:center;
+          justify-content: center;
+        }
+        
+        .center{
+          background-color:white;
+          width:555px;
+        }
+
+        .centered_text {
+            text-align: center;
+        } 
+
+        .article-text {
+            max-width: 800px; /
+            margin: left; 
+            color: black;
+            font-size: 16px;
+        }
+
+        .normal-shadow {
+            background-size: cover;
+            background-position: 0% 100%;
+            border-radius: 40px;
+            height: 320px;
+            width: 320px;
+            box-shadow: 2px 5px 20px 1px #121601ad;
+        }
+
+        h1 {
+            font-weight: lighter;
+            font-size: 22px;
+            color: grey;
+            margin: 0; 
+        }
+
+        h4 {
+            font-size: 16px;
+            margin: 0; 
+        }
+
+        p {
+            margin: 0;
+        } 
+        
+        tiny {
+            font-family: Georgia, Tinos, serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 13px;
+            text-align: right;
+            color: grey;
+            float:right;
+        }
+
+        tiny_centered {
+            font-family: Georgia, Tinos, serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 13px;
+            text-align: right;
+            color: grey;
+            float:center;
+        }
+
+        ul {
+            list-style-type: '- ';
+            margin: 0
+        }
+
+        a {
+            color: royalblue;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 12px;
+            box-shadow: 2px 5px 20px 1px #121601ad;
+            -webkit-box-shadow: 2px 5px 20px 1px #121601ad;
+            -moz-box-shadow: 2px 5px 20px 1px #121601ad;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+
+<!-- CONTENT -->
+
+
+<body>
+    <div class="flex">
+    <div class="center" >
+    <div class="article-text">
+    
+
+    <tiny>
+        Москва, Россия
+        <br>+7 999 870 02 59
+        <br><a href="mailto:veniaminakhmadeev@gmail.com">veniaminakhmadeev@gmail.com</a>
+        <br><a href="https://t.me/VNMKMD">Telegram</a>
+    </tiny>
+    
+    <p>
+    <b>Вениамин Ахмадеев</b>
+    <br><br>
+    Инженер данных с 5+ годами опыта. 
+    <br>
+    Веду данные от источников до метрик и датасетов: пайплайны/ETL, витрины, качество, мониторинг и BI — чтобы ML и продукт работали на надёжных данных.
+    
+    <br><br>
+        
+    <b>Портфолио</b> -> <a href="/portfolio">Примеры моих дашбордов</a>
+        
+    <br><br>
+
+    <h4>Опыт</h4>
+        <a href="https://sberbank.com/about/awards"><b>СберБанк</b></a> <tiny>Jul 2024 - Present</tiny>
+        Data scientist / Data steward
+        <ul>
+            <li>Курировал поставку 54 витрин данных, подключая новые источники</li>
+            <li>Выявил причины падения конверсии в HR-сценариях продукта</li>
+            <li>Обеспечил стабильную аналитику, восстановив исторические данные витрин</li>
+        </ul><br>
+
+        <a href="https://modis.ru"><b>Modis</b></a> <tiny>Aug 2023 - Jul 2024</tiny>
+        Data engineer
+        <ul>
+            <li>Развернул Apache Superset как единую BI-платформу для 100+ активных пользователей.</li>
+            <li>Настроил Apache Airflow для оркестрации потоков данных</li>
+            <li>Разработал и внедрил масштабируемые ETL-пайплайны на Python, обеспечив стабильную интеграцию ключевых
+источников и автоматическое обновление данных</li>
+            <li>Выполнил миграцию аналитического сервера (с Ubuntu на Rocky Linux) с сохранением всех сервисов (ClickHouse,
+PostgreSQL, Superset и др.) и минимальным простоем</li>
+        </ul><br>
+        
+        <a href="https://singer-computer.ru/"><b>Зингер-компьютер</b></a> Аналитик-разработчик / Инженер технической поддержки<tiny>Aug 2021 - Apr 2023</tiny>
+        <ul>
+            <li>Автоматизировал регулярную отчётность на VBA, сократив время подготовки отчётов с 40 до 5 минут, высвобождение до
+80% времени команды от рутины.</li>
+            <li>Разрабатывал витрины данных на Python для последующего анализа в Tableau</li>
+            <li>Обеспечивал техническую поддержку сотрудников: установка и сопровождение рабочих станций и корпоративного ПО,
+администрирование Linux-сервера и сетевой инфраструктуры.</li>
+        </ul><br>
+      
+        <br><br>
+
+        <h4>Навыки</h4>
+        <b>Data:</b> Python, ETL, Airflow, Git, SQL, Jupyter, CatBoost, Excel
+        <br>
+        <b>BI:</b> Apache Superset, Tableau, Power BI, Datalens
+        <br>
+        <b>Databases:</b> Clickhouse, Vertica, Greenplum, Hadoop, BigQuery, etc.
+        <br>
+        <b>Soft:</b> Agile, communication, documentation
+        <br><br>
+
+        <h4>Образование</h4>
+        Московский государственный университет технологий и управления имени К. Г. Разумовского
+        <br>
+        Информационная безопасность, 2020-2024<br><br>
+
+        <h4>Хобби</h4>
+        Бокс, Качалка, Arduino
+    </p>
+    </div>
+
+    <br>
+
+    <tiny>обновлено: Ноябрь, 2024</tiny>
+    <br>
+    <br>
+    <center>
+    <img src="src/m.jpeg" alt="a picture of me" onerror="this.src='https://github.com/V9M9/V9M9/tree/main/src/image.png?raw=true';" width="22%"></center>
+    </div>
+</div>
+</body>
+</html>
